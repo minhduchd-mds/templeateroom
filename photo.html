@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Photo and love</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/icon/i40096.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/photo.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/3.0.39/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style-customizer.css">
+    <link rel="stylesheet" type="text/css" href="css/skins/skin-deep-cerise.css" data-style="styles" />
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+</head>
+<body>
+<div id="preloader">
+    <div class="clear-loading loading-effect"><img src="images/loading.gif" alt="" /></div>
+</div>
+<header class="animated bounceInDown">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">Photo</a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<div class="clearfix"></div>
+<section id="photo">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-9">
+                <div class="card">
+                    <h3 class="card-title">
+                        Photo edit
+                    </h3>
+                    <div class="card-body">
+                        <div class="tab-content">
+                            <div class="tab-pane container active" id="home">
+                                <div class="row">
+                                    <!--offset-md-3-->
+                                    <div class="col-md-6">
+                                        <div class="photo-is-1"></div>
+                                        <div class="form-group mt-5 mb-5">
+                                            <label for="photo-is-1">Upfile photo 1</label>
+                                            <input type="file" id="post-images"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <video id="video" class="photo-is-1 img-fluid"  autoplay></video>
+                                        <a id="snap" class="btn"><i class="fa fa-camera"></i></a>
+                                        <a id="dowload-images" class=" btn"><i class="fa fa-download"></i></a>
+                                        <canvas id="canvas"></canvas>
+                                    </div>
+                                    <div class="col-12 mt-5">
+                                        <a href="" id="remove-css" class="btn" >default</a>
+                                        <a href="" id="blur" class="btn" >blur</a>
+                                        <a href="" id="brightness" class="btn" >brightness</a>
+                                        <a href="" id="contrast" class="btn" >contrast</a>
+                                        <a href="" id="grayscales" class="btn" >grayscale</a>
+                                        <a href="" id="hue-rotate" class="btn" >hue-rotate</a>
+                                        <a href="" id="invert" class="btn" >invert</a>
+                                        <a href="" id="saturate" class="btn" >saturate</a>
+                                        <a href="" id="sepia" class="btn" >sepia</a>
+                                        <a href="" id="multiple11" class="btn" >hieu ung 1</a>
+                                        <a href="" id="multiple2" class="btn" >hieu ung 1</a>
+                                        <a href="" id="multiple3" class="btn" >hieu ung 1</a>
+                                        <a href="" id="blend3" class="btn" >hieu ung h</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane container fade" id="menu1">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="photo-is-1"></div>
+                                        <div class="form-group mb-3">
+                                            <label for="photo-is-1">Upfile photo 1</label>
+                                            <input type="file" id="photo-is-1"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="photo-is-2"></div>
+                                        <div class="form-group mb-3">
+                                            <label for="photo-is-2">Upfile photo 2</label>
+                                            <input type="file" id="photo-is-2"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane container fade" id="menu2">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <h3 class="card-title">Menu</h3>
+                    <div class="card-body">
+                        <ul class="nav nav-pills">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="pill" href="#home">Chinh sua hinh</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="pill" href="#menu1">Ghep hinh</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="pill" href="#menu2">Menu 2</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--background  body setting-->
+<div id="background-setting" class="style-customizer closed">
+    <div class="buy-button"> <a class="opener" href="#"><i class="fa fa-cog fa-spin"></i></a> </div>
+    <div class="clearfix content-chooser">
+        <div class="section-title">
+            <h4 class="title">Lược đồ màu</h4>
+        </div>
+        <ul class="styleChange clearfix">
+            <li class="skin-default" title="Default" data-style="skin-default"></li>
+            <li class="skin-tomato" title="tomato" data-style="skin-tomato"></li>
+            <li class="skin-ruby" title="ruby" data-style="skin-ruby"></li>
+            <li class="skin-pelorous" title="pelorous" data-style="skin-pelorous"></li>
+            <li class="skin-cranberry" title="cranberry" data-style="skin-cranberry"></li>
+            <li class="skin-golden-sand" title="golden-sand" data-style="skin-golden-sand"></li>
+            <li class="skin-deep-cerise" title="deep-cerise" data-style="skin-deep-cerise"></li>
+            <li class="skin-la-rioja" title="la-rioja" data-style="skin-la-rioja"></li>
+            <li class="skin-summer-sky" title="summer-sky" data-style="skin-summer-sky"></li>
+            <li class="skin-amaranth" title="amaranth" data-style="skin-amaranth"></li>
+            <li class="skin-light-tomato" title="light-tomato" data-style="skin-light-tomato"></li>
+            <li class="skin-pacific-blue" title="pacific-blue" data-style="skin-pacific-blue"></li>
+        </ul>
+        <div class="section-title">
+            <h4 class="title">Background</h4>
+        </div>
+        <ul class="styleChange clearfix">
+            <li class="skin-default" title="Default" data-style="skin-default"></li>
+            <li class="skin-tomato" title="tomato" data-style="skin-tomato"></li>
+            <li class="skin-ruby" title="ruby" data-style="skin-ruby"></li>
+            <li class="skin-pelorous" title="pelorous" data-style="skin-pelorous"></li>
+            <li class="skin-cranberry" title="cranberry" data-style="skin-cranberry"></li>
+            <li class="skin-golden-sand" title="golden-sand" data-style="skin-golden-sand"></li>
+            <li class="skin-deep-cerise" title="deep-cerise" data-style="skin-deep-cerise"></li>
+            <li class="skin-la-rioja" title="la-rioja" data-style="skin-la-rioja"></li>
+            <li class="skin-summer-sky" title="summer-sky" data-style="skin-summer-sky"></li>
+            <li class="skin-amaranth" title="amaranth" data-style="skin-amaranth"></li>
+            <li class="skin-light-tomato" title="light-tomato" data-style="skin-light-tomato"></li>
+            <li class="skin-pacific-blue" title="pacific-blue" data-style="skin-pacific-blue"></li>
+        </ul>
+        <div class="section-title">
+        <h4 class="title">Page</h4>
+        </div>
+        <ul class="styleChange clearfix">
+            <li class="skin-default" title="Default" data-style="skin-default"></li>
+            <li class="skin-tomato" title="tomato" data-style="skin-tomato"></li>
+        </ul>
+        <ul class="resetAll clearfix">
+            <li><a class="button-reset button" href="#"><span>Đặt lại tất cả</span></a></li>
+        </ul>
+    </div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="js/jquery-2.1.3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/phtoedit.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/3.0.39/css/materialdesignicons.min.css">
+</head>
+<body>
+    <section id="create-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-title">Create  html</div>
+                        <div class="card-body">
+                            <div class="create-a-html mb-3">
+                                <a id="create-html" data-create="create-html" class="btn btn-group">Create</a>
+                            </div>
+                            <div class="from-html-code">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="form-group mb-3">
+                                            <input type="text" id="forderHtml" data-title="" data-id="" placeholder="Enter name forder">
+                                        </div>
+                                        <div class="form-group mb-3">
+                                            <input type="text" id="fileHtml" data-title="" data-id="" placeholder="Enter name file">
+                                        </div>
+                                        <span id="show-create-html"></span>
+                                    </div>
+                                    <div class="col-6">
+                                        <h4 class="title">List link</h4>
+                                        <table class="table-hover table">
+                                            <thead>
+                                            <tr>
+                                                <th>STT</th>
+                                                <th>Forded</th>
+                                                <th>File</th>
+                                                <th>Chỉnh sửa</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody id="showList">
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mt-5">
+                    <div class="card">
+                        <div class="card-title">Edit code</div>
+                        <div class="card-body">
+                            <div class="create-a-html mb-3">
+                                <a id="show-html" class="btn btn-group">Create</a>
+                            </div>
+                            <div class="from-html-code">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <textarea id="code" data-content="code" class="fullwidthbanner"></textarea>
+                                    </div>
+                                    <div class="col-6">
+                                        <iframe id="preview" data-ifarame="preview"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+<script src="../js/jquery-2.1.3.min.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

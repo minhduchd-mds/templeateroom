@@ -1,0 +1,312 @@
+
+#background-setting{
+    transition: all linear 0.3s;
+}
+
+#background-setting .background-setting-click ul {
+    list-style: none;
+    margin: 0;
+    padding: 5px 0 0 0;
+    font-size: 0;
+}
+#background-setting .background-setting-click ul li {
+    width: 38px;
+    height: 38px;
+    float: left;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 10px 8px 0;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    transition: all linear 0.3s;
+}
+#background-setting .coler-setting ul{
+    list-style: none;
+    margin: 0;
+    padding: 5px 0 0 0;
+    font-size: 0;
+}
+#background-setting .coler-setting ul li{
+    width: 38px;
+    height: 38px;
+    float: left;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 10px 8px 0;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    transition: all linear 0.3s;
+}
+/*==================backgroud=====================*/
+.Zig-Zag{
+    background:
+            linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -50px 0,
+            linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -50px 0,
+            linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
+            linear-gradient(45deg, #ECEDDC 25%, transparent 25%);
+    background-size: 100px 100px;
+    background-color: #EC173A;
+}
+.Arrows{
+    background:
+            linear-gradient(45deg, #92baac 45px, transparent 45px)64px 64px,
+            linear-gradient(45deg, #92baac 45px, transparent 45px,transparent 91px, #e1ebbd 91px, #e1ebbd 135px, transparent 135px),
+            linear-gradient(-45deg, #92baac 23px, transparent 23px, transparent 68px,#92baac 68px,#92baac 113px,transparent 113px,transparent 158px,#92baac 158px);
+    background-color:#e1ebbd;
+    background-size: 128px 128px;
+}
+.Hearts{
+    background:
+            radial-gradient(circle closest-side at 60% 43%, #b03 26%, rgba(187,0,51,0) 27%),
+            radial-gradient(circle closest-side at 40% 43%, #b03 26%, rgba(187,0,51,0) 27%),
+            radial-gradient(circle closest-side at 40% 22%, #d35 45%, rgba(221,51,85,0) 46%),
+            radial-gradient(circle closest-side at 60% 22%, #d35 45%, rgba(221,51,85,0) 46%),
+            radial-gradient(circle closest-side at 50% 35%, #d35 30%, rgba(221,51,85,0) 31%),
+
+            radial-gradient(circle closest-side at 60% 43%, #b03 26%, rgba(187,0,51,0) 27%) 50px 50px,
+            radial-gradient(circle closest-side at 40% 43%, #b03 26%, rgba(187,0,51,0) 27%) 50px 50px,
+            radial-gradient(circle closest-side at 40% 22%, #d35 45%, rgba(221,51,85,0) 46%) 50px 50px,
+            radial-gradient(circle closest-side at 60% 22%, #d35 45%, rgba(221,51,85,0) 46%) 50px 50px,
+            radial-gradient(circle closest-side at 50% 35%, #d35 30%, rgba(221,51,85,0) 31%) 50px 50px;
+    background-color:#b03;
+    background-size:100px 100px;
+}
+.Lined-paper{
+    background-color: #fff;
+    background-image:
+            linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+            linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
+}
+.Tablecloth{
+    background-color:white;
+    background-image: linear-gradient(90deg, rgba(200,0,0,.5) 50%, transparent 50%),
+    linear-gradient(rgba(200,0,0,.5) 50%, transparent 50%);
+    background-size:50px 50px;
+}
+.Love{
+    background-color: rgb(136, 0, 0);
+}
+/*==================coloer=====================*/
+/*Color Skins*/
+div.style-customizer .skin-default{background: #ffbc05;}
+div.style-customizer .skin-tomato{background:#fe7043;}
+div.style-customizer .skin-ruby{background:#e81d62;}
+div.style-customizer .skin-pelorous{background:#329fa9;}
+div.style-customizer .skin-cranberry{background:#E0566D;}
+div.style-customizer .skin-golden-sand{background:#f7d66c;}
+div.style-customizer .skin-deep-cerise{background:#CE2E85;}
+div.style-customizer .skin-la-rioja{background:#B4C408;}
+div.style-customizer .skin-summer-sky{background:#34c1e7;}
+div.style-customizer .skin-amaranth{background:#df3f52;}
+div.style-customizer .skin-light-tomato{background:#f35b50;}
+div.style-customizer .skin-pacific-blue{background:#0296c0;}
+
+
+/*=======================================*/
+
+.photo-is-1{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    height: 400px;
+}
+.photo-is-1 img{
+    width: 100%;
+    height: 400px;
+    max-height: 400px;
+}
+.blur {
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+}
+.brightness {
+    filter: brightness(0.9);
+}
+.contrast {
+    -webkit-filter: contrast(200%);
+    filter: contrast(200%);
+}
+.grayscales {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.hue-rotate {
+    -webkit-filter: hue-rotate(185deg);
+    filter: hue-rotate(185deg);
+}
+.invert {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+.saturate {
+    -webkit-filter: saturate(200%);
+    filter: saturate(200%);
+}
+.sepia {
+    -webkit-filter: sepia(80%);
+    filter: sepia(80%);
+}
+.multiple1 {
+    -webkit-filter: contrast(1.9) grayscale(1);
+    filter: contrast(1.9) grayscale(1);
+}
+.multiple2 {
+    -webkit-filter: invert(90%) hue-rotate(175deg);
+    filter: invert(90%) hue-rotate(175deg);
+}
+.multiple3 {
+    -webkit-filter: brightness(0.7) saturate(150%) contrast(190%) hue-rotate(30deg);
+    filter: brightness(0.7) saturate(150%) contrast(190%) hue-rotate(30deg);
+}
+
+/**/
+.blend3 img:first-child {
+    position: absolute;
+    mix-blend-mode: soft-light;
+}
+.blend3 {
+    max-height: 100%;
+    max-width: 100%;
+    height: 400px;
+    background-blend-mode: overlay;
+    background-image: linear-gradient(to bottom, #efe8f5, #8845e0);
+    background-size: 100% 100%;
+}
+/**/
+.shadow2 {
+    box-shadow: 0 20px 50px rgba(212, 238, 240, 0.7);
+}
+.shadow4 {
+    box-shadow: 0px 10px 1px #ddd, 0 10px 20px #ccc;
+}
+.shadow5 {
+    box-shadow: -10px -10px 30px 4px rgba(0,0,0,0.1),
+    10px 10px 30px 4px rgba(45,78,255,0.15);
+}
+.shadow6 {
+    box-shadow: 5px 5px rgba(0, 98, 90, 0.4),
+    10px 10px rgba(0, 98, 90, 0.3),
+    15px 15px rgba(0, 98, 90, 0.2),
+    20px 20px rgba(0, 98, 90, 0.1),
+    25px 25px rgba(0, 98, 90, 0.05);
+}
+.shadow7 {
+    box-shadow: 0 5px rgba(93, 64, 55, 0.4), 0 10px rgba(93, 64, 55, 0.3),
+    0 15px rgba(93, 64, 55, 0.2), 0 20px rgba(93, 64, 55, 0.1),
+    0 25px rgba(93, 64, 55, 0.05),
+    -5px 5px 40px rgba(100, 0, 0, 0.4);
+}
+/*================camera================*/
+.app{
+    width: 100%;
+    position: relative;
+}
+
+.app #start-camera{
+    display: none;
+    border-radius: 3px;
+    max-width: 400px;
+    color: #fff;
+    background-color: #448AFF;
+    text-decoration: none;
+    padding: 15px;
+    opacity: 0.8;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.app video#camera-stream{
+    display: none;
+    width: 100%;
+}
+
+.app img#snap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    display: none;
+}
+
+.app #error-message{
+    width: 100%;
+    background-color: #ccc;
+    color: #9b9b9b;
+    font-size: 28px;
+    padding: 200px 100px;
+    text-align: center;
+    display: none;
+}
+
+.app .controls{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 30px;
+    display: none;
+}
+
+.app .controls a{
+    border-radius: 50%;
+    color: #fff;
+    background-color: #111;
+    text-decoration: none;
+    padding: 15px;
+    line-height: 0;
+    opacity: 0.7;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.app .controls a:hover{
+    opacity: 1;
+}
+
+.app .controls a.disabled{
+    background-color: #555;
+    opacity: 0.5;
+    cursor: default;
+    pointer-events: none;
+}
+
+.app .controls a.disabled:hover{
+    opacity: 0.5;
+}
+
+.app .controls a i{
+    font-size: 18px;
+}
+
+.app .controls #take-photo i{
+    font-size: 32px;
+}
+
+.app canvas{
+    display: none;
+}
+
+
+
+.app video#camera-stream.visible,
+.app img#snap.visible,
+.app #error-message.visible
+{
+    display: block;
+}
+
+.app .controls.visible{
+    display: flex;
+}
